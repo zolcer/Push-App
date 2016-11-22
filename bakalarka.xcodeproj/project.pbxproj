@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04371CBA1DDA6D9D00F932D6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04371CB91DDA6D9D00F932D6 /* MenuController.swift */; };
+		04371CBD1DDA7FE400F932D6 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CBC1DDA7FE400F932D6 /* button.png */; };
+		04371CC71DDA7FF000F932D6 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CBE1DDA7FF000F932D6 /* bubble.png */; };
+		04371CC81DDA7FF000F932D6 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CBF1DDA7FF000F932D6 /* button.png */; };
+		04371CC91DDA7FF000F932D6 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CC01DDA7FF000F932D6 /* button2.png */; };
+		04371CCA1DDA7FF000F932D6 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CC11DDA7FF000F932D6 /* facebook.png */; };
+		04371CCB1DDA7FF000F932D6 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CC21DDA7FF000F932D6 /* logout.png */; };
+		04371CCC1DDA7FF000F932D6 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CC31DDA7FF000F932D6 /* start.png */; };
+		04371CCD1DDA7FF000F932D6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CC41DDA7FF000F932D6 /* settings.png */; };
+		04371CCE1DDA7FF000F932D6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CC51DDA7FF000F932D6 /* play.png */; };
+		04371CCF1DDA7FF000F932D6 /* statistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 04371CC61DDA7FF000F932D6 /* statistics.png */; };
+		0442C52C1DD0DA050023943D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442C52B1DD0DA050023943D /* AppDelegate.swift */; };
+		0442C52E1DD0DA050023943D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442C52D1DD0DA050023943D /* ViewController.swift */; };
+		0442C5331DD0DA050023943D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0442C5321DD0DA050023943D /* Assets.xcassets */; };
+		0442C5361DD0DA050023943D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0442C5341DD0DA050023943D /* LaunchScreen.storyboard */; };
+		0442C5411DD0DA060023943D /* bakalarkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442C5401DD0DA060023943D /* bakalarkaTests.swift */; };
+		0442C54C1DD0DA060023943D /* bakalarkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442C54B1DD0DA060023943D /* bakalarkaUITests.swift */; };
+		0442C55B1DD0DB770023943D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0442C55A1DD0DB770023943D /* CoreMotion.framework */; };
+		04D150561DD9DFB00053FAD0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D150521DD9DFB00053FAD0 /* Bolts.framework */; };
+		04D150571DD9DFB00053FAD0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D150531DD9DFB00053FAD0 /* FBSDKCoreKit.framework */; };
+		04D150581DD9DFB00053FAD0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D150541DD9DFB00053FAD0 /* FBSDKLoginKit.framework */; };
+		04D150591DD9DFB00053FAD0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D150551DD9DFB00053FAD0 /* FBSDKShareKit.framework */; };
+		04D1505B1DD9E1170053FAD0 /* TrainingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1505A1DD9E1170053FAD0 /* TrainingController.swift */; };
+		04ECB5531DE09AEC00A627CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB5511DE09AEC00A627CB /* Main.storyboard */; };
+		04ECB5551DE4A29F00A627CB /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB5541DE4A29F00A627CB /* previous.png */; };
+		04ECB5571DE4AC7700A627CB /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB5561DE4AC7700A627CB /* SettingsController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0442C53D1DD0DA050023943D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0442C5201DD0DA050023943D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0442C5271DD0DA050023943D;
+			remoteInfo = bakalarka;
+		};
+		0442C5481DD0DA060023943D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0442C5201DD0DA050023943D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0442C5271DD0DA050023943D;
+			remoteInfo = bakalarka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04371CB91DDA6D9D00F932D6 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		04371CBC1DDA7FE400F932D6 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = bakalarka/design/button.png; sourceTree = "<group>"; };
+		04371CBE1DDA7FF000F932D6 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubble.png; path = bakalarka/design/bubble.png; sourceTree = "<group>"; };
+		04371CBF1DDA7FF000F932D6 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = bakalarka/design/button.png; sourceTree = "<group>"; };
+		04371CC01DDA7FF000F932D6 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button2.png; path = bakalarka/design/button2.png; sourceTree = "<group>"; };
+		04371CC11DDA7FF000F932D6 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = bakalarka/design/facebook.png; sourceTree = "<group>"; };
+		04371CC21DDA7FF000F932D6 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logout.png; path = bakalarka/design/logout.png; sourceTree = "<group>"; };
+		04371CC31DDA7FF000F932D6 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start.png; path = bakalarka/design/start.png; sourceTree = "<group>"; };
+		04371CC41DDA7FF000F932D6 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = bakalarka/design/settings.png; sourceTree = "<group>"; };
+		04371CC51DDA7FF000F932D6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = bakalarka/design/play.png; sourceTree = "<group>"; };
+		04371CC61DDA7FF000F932D6 /* statistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = statistics.png; path = bakalarka/design/statistics.png; sourceTree = "<group>"; };
+		0442C5281DD0DA050023943D /* bakalarka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bakalarka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0442C52B1DD0DA050023943D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0442C52D1DD0DA050023943D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0442C5321DD0DA050023943D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0442C5351DD0DA050023943D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0442C5371DD0DA050023943D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0442C53C1DD0DA050023943D /* bakalarkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bakalarkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0442C5401DD0DA060023943D /* bakalarkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakalarkaTests.swift; sourceTree = "<group>"; };
+		0442C5421DD0DA060023943D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0442C5471DD0DA060023943D /* bakalarkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bakalarkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0442C54B1DD0DA060023943D /* bakalarkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bakalarkaUITests.swift; sourceTree = "<group>"; };
+		0442C54D1DD0DA060023943D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0442C55A1DD0DB770023943D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		04D150521DD9DFB00053FAD0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = "<group>"; };
+		04D150531DD9DFB00053FAD0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		04D150541DD9DFB00053FAD0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		04D150551DD9DFB00053FAD0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		04D1505A1DD9E1170053FAD0 /* TrainingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainingController.swift; sourceTree = "<group>"; };
+		04ECB5521DE09AEC00A627CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ECB5541DE4A29F00A627CB /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = previous.png; path = bakalarka/design/previous.png; sourceTree = "<group>"; };
+		04ECB5561DE4AC7700A627CB /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0442C5251DD0DA050023943D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D150561DD9DFB00053FAD0 /* Bolts.framework in Frameworks */,
+				04D150571DD9DFB00053FAD0 /* FBSDKCoreKit.framework in Frameworks */,
+				04D150581DD9DFB00053FAD0 /* FBSDKLoginKit.framework in Frameworks */,
+				04D150591DD9DFB00053FAD0 /* FBSDKShareKit.framework in Frameworks */,
+				0442C55B1DD0DB770023943D /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442C5391DD0DA050023943D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442C5441DD0DA060023943D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04371CBB1DDA7F8E00F932D6 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				04371CBC1DDA7FE400F932D6 /* button.png */,
+				04371CBE1DDA7FF000F932D6 /* bubble.png */,
+				04371CBF1DDA7FF000F932D6 /* button.png */,
+				04371CC01DDA7FF000F932D6 /* button2.png */,
+				04371CC11DDA7FF000F932D6 /* facebook.png */,
+				04371CC21DDA7FF000F932D6 /* logout.png */,
+				04371CC31DDA7FF000F932D6 /* start.png */,
+				04371CC41DDA7FF000F932D6 /* settings.png */,
+				04371CC51DDA7FF000F932D6 /* play.png */,
+				04ECB5541DE4A29F00A627CB /* previous.png */,
+				04371CC61DDA7FF000F932D6 /* statistics.png */,
+			);
+			name = design;
+			sourceTree = "<group>";
+		};
+		0442C51F1DD0DA050023943D = {
+			isa = PBXGroup;
+			children = (
+				04371CBB1DDA7F8E00F932D6 /* design */,
+				0442C52A1DD0DA050023943D /* bakalarka */,
+				0442C53F1DD0DA060023943D /* bakalarkaTests */,
+				0442C54A1DD0DA060023943D /* bakalarkaUITests */,
+				0442C5291DD0DA050023943D /* Products */,
+				0442C5591DD0DB760023943D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0442C5291DD0DA050023943D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0442C5281DD0DA050023943D /* bakalarka.app */,
+				0442C53C1DD0DA050023943D /* bakalarkaTests.xctest */,
+				0442C5471DD0DA060023943D /* bakalarkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0442C52A1DD0DA050023943D /* bakalarka */ = {
+			isa = PBXGroup;
+			children = (
+				0442C52B1DD0DA050023943D /* AppDelegate.swift */,
+				0442C52D1DD0DA050023943D /* ViewController.swift */,
+				04ECB5511DE09AEC00A627CB /* Main.storyboard */,
+				0442C5321DD0DA050023943D /* Assets.xcassets */,
+				0442C5341DD0DA050023943D /* LaunchScreen.storyboard */,
+				0442C5371DD0DA050023943D /* Info.plist */,
+				04D1505A1DD9E1170053FAD0 /* TrainingController.swift */,
+				04371CB91DDA6D9D00F932D6 /* MenuController.swift */,
+				04ECB5561DE4AC7700A627CB /* SettingsController.swift */,
+			);
+			path = bakalarka;
+			sourceTree = "<group>";
+		};
+		0442C53F1DD0DA060023943D /* bakalarkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0442C5401DD0DA060023943D /* bakalarkaTests.swift */,
+				0442C5421DD0DA060023943D /* Info.plist */,
+			);
+			path = bakalarkaTests;
+			sourceTree = "<group>";
+		};
+		0442C54A1DD0DA060023943D /* bakalarkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0442C54B1DD0DA060023943D /* bakalarkaUITests.swift */,
+				0442C54D1DD0DA060023943D /* Info.plist */,
+			);
+			path = bakalarkaUITests;
+			sourceTree = "<group>";
+		};
+		0442C5591DD0DB760023943D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D150521DD9DFB00053FAD0 /* Bolts.framework */,
+				04D150531DD9DFB00053FAD0 /* FBSDKCoreKit.framework */,
+				04D150541DD9DFB00053FAD0 /* FBSDKLoginKit.framework */,
+				04D150551DD9DFB00053FAD0 /* FBSDKShareKit.framework */,
+				0442C55A1DD0DB770023943D /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0442C5271DD0DA050023943D /* bakalarka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442C5501DD0DA060023943D /* Build configuration list for PBXNativeTarget "bakalarka" */;
+			buildPhases = (
+				0442C5241DD0DA050023943D /* Sources */,
+				0442C5251DD0DA050023943D /* Frameworks */,
+				0442C5261DD0DA050023943D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bakalarka;
+			productName = bakalarka;
+			productReference = 0442C5281DD0DA050023943D /* bakalarka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0442C53B1DD0DA050023943D /* bakalarkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442C5531DD0DA060023943D /* Build configuration list for PBXNativeTarget "bakalarkaTests" */;
+			buildPhases = (
+				0442C5381DD0DA050023943D /* Sources */,
+				0442C5391DD0DA050023943D /* Frameworks */,
+				0442C53A1DD0DA050023943D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0442C53E1DD0DA050023943D /* PBXTargetDependency */,
+			);
+			name = bakalarkaTests;
+			productName = bakalarkaTests;
+			productReference = 0442C53C1DD0DA050023943D /* bakalarkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0442C5461DD0DA060023943D /* bakalarkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442C5561DD0DA060023943D /* Build configuration list for PBXNativeTarget "bakalarkaUITests" */;
+			buildPhases = (
+				0442C5431DD0DA060023943D /* Sources */,
+				0442C5441DD0DA060023943D /* Frameworks */,
+				0442C5451DD0DA060023943D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0442C5491DD0DA060023943D /* PBXTargetDependency */,
+			);
+			name = bakalarkaUITests;
+			productName = bakalarkaUITests;
+			productReference = 0442C5471DD0DA060023943D /* bakalarkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0442C5201DD0DA050023943D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Zolcer;
+				TargetAttributes = {
+					0442C5271DD0DA050023943D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2GZE7WESQL;
+						ProvisioningStyle = Automatic;
+					};
+					0442C53B1DD0DA050023943D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0442C5271DD0DA050023943D;
+					};
+					0442C5461DD0DA060023943D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0442C5271DD0DA050023943D;
+					};
+				};
+			};
+			buildConfigurationList = 0442C5231DD0DA050023943D /* Build configuration list for PBXProject "bakalarka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0442C51F1DD0DA050023943D;
+			productRefGroup = 0442C5291DD0DA050023943D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0442C5271DD0DA050023943D /* bakalarka */,
+				0442C53B1DD0DA050023943D /* bakalarkaTests */,
+				0442C5461DD0DA060023943D /* bakalarkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0442C5261DD0DA050023943D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442C5361DD0DA050023943D /* LaunchScreen.storyboard in Resources */,
+				04371CCA1DDA7FF000F932D6 /* facebook.png in Resources */,
+				04371CCC1DDA7FF000F932D6 /* start.png in Resources */,
+				04371CCD1DDA7FF000F932D6 /* settings.png in Resources */,
+				04371CC81DDA7FF000F932D6 /* button.png in Resources */,
+				04371CCE1DDA7FF000F932D6 /* play.png in Resources */,
+				04371CBD1DDA7FE400F932D6 /* button.png in Resources */,
+				04ECB5531DE09AEC00A627CB /* Main.storyboard in Resources */,
+				04371CC71DDA7FF000F932D6 /* bubble.png in Resources */,
+				0442C5331DD0DA050023943D /* Assets.xcassets in Resources */,
+				04ECB5551DE4A29F00A627CB /* previous.png in Resources */,
+				04371CC91DDA7FF000F932D6 /* button2.png in Resources */,
+				04371CCF1DDA7FF000F932D6 /* statistics.png in Resources */,
+				04371CCB1DDA7FF000F932D6 /* logout.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442C53A1DD0DA050023943D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442C5451DD0DA060023943D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0442C5241DD0DA050023943D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04371CBA1DDA6D9D00F932D6 /* MenuController.swift in Sources */,
+				04ECB5571DE4AC7700A627CB /* SettingsController.swift in Sources */,
+				04D1505B1DD9E1170053FAD0 /* TrainingController.swift in Sources */,
+				0442C52E1DD0DA050023943D /* ViewController.swift in Sources */,
+				0442C52C1DD0DA050023943D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442C5381DD0DA050023943D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442C5411DD0DA060023943D /* bakalarkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442C5431DD0DA060023943D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442C54C1DD0DA060023943D /* bakalarkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0442C53E1DD0DA050023943D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0442C5271DD0DA050023943D /* bakalarka */;
+			targetProxy = 0442C53D1DD0DA050023943D /* PBXContainerItemProxy */;
+		};
+		0442C5491DD0DA060023943D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0442C5271DD0DA050023943D /* bakalarka */;
+			targetProxy = 0442C5481DD0DA060023943D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0442C5341DD0DA050023943D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0442C5351DD0DA050023943D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04ECB5511DE09AEC00A627CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ECB5521DE09AEC00A627CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0442C54E1DD0DA060023943D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0442C54F1DD0DA060023943D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0442C5511DD0DA060023943D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 2GZE7WESQL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = bakalarka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.bakalarka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0442C5521DD0DA060023943D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 2GZE7WESQL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
+				INFOPLIST_FILE = bakalarka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.bakalarka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0442C5541DD0DA060023943D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bakalarkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.bakalarkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bakalarka.app/bakalarka";
+			};
+			name = Debug;
+		};
+		0442C5551DD0DA060023943D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bakalarkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.bakalarkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bakalarka.app/bakalarka";
+			};
+			name = Release;
+		};
+		0442C5571DD0DA060023943D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = bakalarkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.bakalarkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = bakalarka;
+			};
+			name = Debug;
+		};
+		0442C5581DD0DA060023943D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = bakalarkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdf.bakalarkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = bakalarka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0442C5231DD0DA050023943D /* Build configuration list for PBXProject "bakalarka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442C54E1DD0DA060023943D /* Debug */,
+				0442C54F1DD0DA060023943D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0442C5501DD0DA060023943D /* Build configuration list for PBXNativeTarget "bakalarka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442C5511DD0DA060023943D /* Debug */,
+				0442C5521DD0DA060023943D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0442C5531DD0DA060023943D /* Build configuration list for PBXNativeTarget "bakalarkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442C5541DD0DA060023943D /* Debug */,
+				0442C5551DD0DA060023943D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0442C5561DD0DA060023943D /* Build configuration list for PBXNativeTarget "bakalarkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442C5571DD0DA060023943D /* Debug */,
+				0442C5581DD0DA060023943D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0442C5201DD0DA050023943D /* Project object */;
+}
